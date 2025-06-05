@@ -1,5 +1,5 @@
  import { useState } from 'react';
-
+import '../CSS-styling/Register.css';
 const Register = () => {
   const [form, setForm] = useState({ name: '', email: '', role: '' });
   const [error, setError] = useState('');
@@ -37,4 +37,3 @@ const Register = () => {
 };
 
 export default Register;
-
